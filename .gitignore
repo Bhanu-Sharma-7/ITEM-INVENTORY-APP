@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.* # In case you use .env.development or .env.production
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Build artifacts
+build/
+dist/
+coverage/
+.next/
+out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# React (frontend)
+# If your client is in a separate folder like /client
+client/node_modules/
+client/build/
+client/.env
+client/.DS_Store
+client/.eslintcache
+
+# Optional: Ignore MongoDB dump files
+dump/
+
+# Optional: PM2 process logs
+pids/
+*.pid
+*.seed
+
+# Optional: TypeScript cache
+*.tsbuildinfo
+
+# Optional: Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Optional: Ignore local SSL certs
+certs/
+
+# Optional: Ignore uploads or media if stored locally
+uploads/
+public/uploads/
