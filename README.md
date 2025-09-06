@@ -28,21 +28,6 @@ Updated Home page:
     - `pages/`: Home and Create product pages.
     - `store/product.js`: Zustand store for product state and API calls.
 
-## Flow
-
-1. **Backend**
-   - Start server with `npm run dev` (uses Nodemon).
-   - Connects to MongoDB using credentials from `.env`.
-   - Exposes REST API at `/api/products` for CRUD operations.
-
-2. **Frontend**
-   - Start with `npm run dev` inside `Frontend/`.
-   - Uses Vite for fast development.
-   - Fetches products from backend, displays them.
-   - Allows creating, updating, deleting products via UI.
-
-3. **Proxy**
-   - Frontend uses Vite proxy to forward `/api` requests to backend.
 
 ## Getting Started
 
